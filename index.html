@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07070a">
+  <meta name="description" content="Radh Shahmat — Creative Developer & Problem Solver. Full-stack projects, research and technical expertise.">
+  <title>Radh Shahmat — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor cursor-dot"></div>
+  <div class="cursor cursor-ring"></div>
+  <div class="loader" id="loader">
+    <div class="loader-mark">RS<span>/</span></div>
+    <div class="loader-line"><i></i></div>
+    <div class="loader-copy">INITIALIZING EXPERIENCE <b id="loadPct">0</b>%</div>
+  </div>
+
+  <header class="nav" id="nav">
+    <a class="brand magnetic" href="#top" aria-label="Radh Shahmat home">
+      <span class="brand-box">RS</span>
+      <span class="brand-text">Radh<span>.</span></span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#research">Research</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta magnetic" href="mailto:radhshahmat91@gmail.com">Let's talk <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="hero-grid"></div>
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES <em>•</em> DHAKA, BD</div>
+        <p class="hero-kicker">CREATIVE DEVELOPER / CSE GRADUATE</p>
+        <h1>Building digital<br><span class="gradient-text">experiences</span><br>with intent.</h1>
+        <p class="hero-lede">I turn ideas into polished, responsive products — from full-stack platforms to research-driven NLP systems.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="#work">Explore my work <span>↓</span></a>
+          <a class="btn btn-ghost magnetic" href="https://github.com/radhshahmat91" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><b>04</b> featured builds</span>
+          <span><b>01</b> research project</span>
+          <span><b>∞</b> curiosity</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-2">
+        <div class="portrait-frame">
+          <div class="frame-glow"></div>
+          <img src="https://radhshahmat91.github.io/Portfolio/CYMERA_20251116_131102.jpg" alt="Radh Shahmat">
+          <div class="portrait-scan"></div>
+          <div class="portrait-tag tag-top">CREATIVE<br>ENGINEERING</div>
+          <div class="portrait-tag tag-bottom">BUILD / LEARN / IMPROVE</div>
+          <div class="portrait-corner c1"></div><div class="portrait-corner c2"></div>
+          <div class="portrait-corner c3"></div><div class="portrait-corner c4"></div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="marquee-wrap" aria-hidden="true">
+      <div class="marquee">
+        <span>FULL-STACK DEVELOPMENT</span><i>✦</i><span>REACT</span><i>✦</i><span>NODE.JS</span><i>✦</i><span>MONGODB</span><i>✦</i><span>NLP RESEARCH</span><i>✦</i><span>UI / UX</span><i>✦</i>
+        <span>FULL-STACK DEVELOPMENT</span><i>✦</i><span>REACT</span><i>✦</i><span>NODE.JS</span><i>✦</i><span>MONGODB</span><i>✦</i><span>NLP RESEARCH</span><i>✦</i><span>UI / UX</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head reveal">
+        <span class="section-index">01 / ABOUT</span>
+        <h2>Curiosity in.<br><span>Craft out.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead">Hello, I'm <strong>Radh Shahmat</strong> — a Computer Science & Engineering graduate who enjoys the space where design, engineering and problem-solving meet.</p>
+          <p>I build web applications with modern frontend and backend technologies, care about the details users actually feel, and keep learning by shipping real things. My work ranges from university platforms and restaurant systems to car-rental and job-marketplace applications.</p>
+          <p>I'm also interested in NLP and applied machine learning. My undergraduate research explored gender bias in Bangladeshi YouTube comments using Bangla, English and Banglish data.</p>
+          <div class="quote">“Simple solutions are often the strongest.”</div>
+        </div>
+        <div class="about-side reveal delay-1">
+          <div class="stat-card"><span>EDUCATION</span><strong>B.Sc.</strong><small>Computer Science & Engineering<br>United International University</small></div>
+          <div class="stat-card"><span>FOCUS</span><strong>WEB + NLP</strong><small>Full-stack development<br>Applied research</small></div>
+          <div class="stat-card"><span>MINDSET</span><strong>BUILD → LEARN</strong><small>Iterate, debug, improve<br>Ship useful work</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-head reveal">
+        <span class="section-index">02 / SELECTED WORK</span>
+        <h2>Things I've<br><span>built.</span></h2>
+        <p>Real applications, real deployments, real code.</p>
+      </div>
+      <div class="project-list">
+        <article class="project-card project-feature reveal tilt" data-index="01">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=85" alt="Students collaborating">
+            <div class="image-overlay"></div><span class="project-number">01</span>
+          </div>
+          <div class="project-content">
+            <div class="project-top"><span>UNIVERSITY PLATFORM</span><span>FULL-STACK</span></div>
+            <h3>AcademiaConnect</h3>
+            <p>A university-focused platform connecting courses, clubs, events, notices, profiles and real-time student messaging in one ecosystem.</p>
+            <div class="chips"><b>React</b><b>Node.js</b><b>MongoDB</b><b>Socket.io</b></div>
+            <div class="project-links"><a class="magnetic" href="https://academiaconnect-msms.onrender.com/" target="_blank" rel="noreferrer">Live demo ↗</a><a class="magnetic" href="https://github.com/radhshahmat91/AcademiaConnect" target="_blank" rel="noreferrer">Source ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal tilt" data-index="02">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1400&q=85" alt="Elegant restaurant interior">
+            <div class="image-overlay"></div><span class="project-number">02</span>
+          </div>
+          <div class="project-content">
+            <div class="project-top"><span>RESTAURANT PLATFORM</span><span>FULL-STACK</span></div>
+            <h3>Velora</h3>
+            <p>Restaurant ordering and reservation platform with menu browsing, cart, checkout, events and an admin dashboard backed by MongoDB.</p>
+            <div class="chips"><b>React</b><b>Vite</b><b>Express</b><b>MongoDB</b></div>
+            <div class="project-links"><a class="magnetic" href="https://velora-restaurant-2.vercel.app/" target="_blank" rel="noreferrer">Live demo ↗</a><a class="magnetic" href="https://github.com/radhshahmat91/velora-restaurant_2" target="_blank" rel="noreferrer">Source ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal tilt" data-index="03">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=85" alt="Car on the road">
+            <div class="image-overlay"></div><span class="project-number">03</span>
+          </div>
+          <div class="project-content">
+            <div class="project-top"><span>MOBILITY</span><span>FULL-STACK</span></div>
+            <h3>Vroomly</h3>
+            <p>A peer-to-peer car rental and booking marketplace where renters discover vehicles, hosts manage listings and users complete bookings.</p>
+            <div class="chips"><b>Next.js</b><b>Node.js</b><b>MongoDB</b><b>Stripe</b></div>
+            <div class="project-links"><a class="magnetic" href="https://vroomly-six.vercel.app/" target="_blank" rel="noreferrer">Live demo ↗</a><a class="magnetic" href="https://github.com/radhshahmat91/vroomly" target="_blank" rel="noreferrer">Source ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card reveal tilt" data-index="04">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1400&q=85" alt="Professional workplace">
+            <div class="image-overlay"></div><span class="project-number">04</span>
+          </div>
+          <div class="project-content">
+            <div class="project-top"><span>JOB MARKETPLACE</span><span>FULL-STACK</span></div>
+            <h3>Jobhunt</h3>
+            <p>A role-based job platform connecting job seekers and employers through search, filtering, applications, saved jobs and applicant management.</p>
+            <div class="chips"><b>React</b><b>Node.js</b><b>Express</b><b>MongoDB</b></div>
+            <div class="project-links"><a class="magnetic" href="https://jobhunt-opal.vercel.app/" target="_blank" rel="noreferrer">Live demo ↗</a><a class="magnetic" href="https://github.com/radhshahmat91/jobhunt" target="_blank" rel="noreferrer">Source ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="research-panel reveal">
+        <div class="research-noise"></div>
+        <div class="section-index">03 / RESEARCH</div>
+        <div class="research-grid">
+          <div>
+            <p class="research-label">UNDERGRADUATE RESEARCH / NLP</p>
+            <h2>Unveiling Gender Bias<br>in <span>Social Media Comments</span></h2>
+          </div>
+          <div>
+            <p>Natural Language Processing analysis of Bangladeshi YouTube comments using manually annotated Bangla, English and Banglish data. The work examined sentiment, toxicity, emotion and bias-related patterns across influencer gender and content categories.</p>
+            <a class="research-link magnetic" href="https://github.com/radhshahmat91" target="_blank" rel="noreferrer">View research projects <span>↗</span></a>
+          </div>
+        </div>
+        <div class="research-strip">
+          <span>DATA ANNOTATION</span><span>GROUND TRUTH</span><span>AGREEMENT</span><span>ML EXPERIMENTS</span><span>CODE-MIXED TEXT</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack">
+      <div class="section-head reveal">
+        <span class="section-index">04 / ARSENAL</span>
+        <h2>Tools I use<br><span>to build.</span></h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card reveal"><span class="stack-icon">01</span><h3>Frontend</h3><p>HTML5 · CSS3 · Tailwind · JavaScript ES6+ · TypeScript · React</p><div class="stack-bar"><i style="--w:92%"></i></div></div>
+        <div class="stack-card reveal delay-1"><span class="stack-icon">02</span><h3>Backend & Data</h3><p>Node.js · Express.js · MongoDB · Mongoose · SQL · REST APIs</p><div class="stack-bar"><i style="--w:86%"></i></div></div>
+        <div class="stack-card reveal delay-2"><span class="stack-icon">03</span><h3>Modern Web</h3><p>Next.js · Git · GitHub · Render · Vercel · deployment workflows</p><div class="stack-bar"><i style="--w:80%"></i></div></div>
+        <div class="stack-card reveal delay-3"><span class="stack-icon">04</span><h3>AI & Productivity</h3><p>NLP concepts · Prompt engineering · AI tools · debugging · code optimization</p><div class="stack-bar"><i style="--w:74%"></i></div></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-shell reveal">
+        <div class="contact-copy">
+          <span class="section-index">05 / CONTACT</span>
+          <h2>Let's make<br><span>something happen.</span></h2>
+          <p>Open to opportunities, collaborations and meaningful conversations.</p>
+          <a class="big-email magnetic" href="mailto:radhshahmat91@gmail.com">radhshahmat91@gmail.com <span>↗</span></a>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/radhshahmat91" target="_blank" rel="noreferrer"><small>GITHUB</small><strong>@radhshahmat91</strong><span>↗</span></a>
+          <a href="https://www.linkedin.com/in/radh-shahmat-5b5420439/" target="_blank" rel="noreferrer"><small>LINKEDIN</small><strong>/in/radh-shahmat</strong><span>↗</span></a>
+          <a href="Radh_Shahmat_CV.pdf" target="_blank" rel="noreferrer"><small>RESUME</small><strong>View CV</strong><span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">RS<span>/</span></div>
+    <p>Designed & engineered with curiosity.</p>
+    <p>© <span id="year"></span> Radh Shahmat</p>
+  </footer>
+
+  <button class="to-top magnetic" id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
